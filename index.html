@@ -17,13 +17,20 @@
   <title>AluraBooks</title>
 </head>
 
+
 <body>
+  <!-- Cabeçalho  -->
+
   <header class="cabecalho">
     <div class="container">
+
+      <!-- Menu -->
       <input type="checkbox" id="menu" class="conteiner_botao">
       <label for="menu" class="container_rotulo">
         <span class="cabecalho_menu container_imagem"></span>
       </label>
+
+      <!-- Lista do Menu -->
       <ul class="lista-menu">
           <li class="lista-menu-titulo">Categorias</li>
 
@@ -36,13 +43,12 @@
           <li class="lista-menu-item"><a href="#" class="lista-menu-link">Business</a></li>
 
           <li class="lista-menu-item"><a href="#" class="lista-menu-link">Design & UX</a></li>
-          
       </ul>
-      
       <img class="container_imagem" src="Icons/Logo.svg" alt="Logo da AluraBooks">
       <h1 class="container_titulo"><b class="container_titulo-negrito">Alura</b>Books</h1>
     </div>
 
+    <!-- Menu + Lista 2 (Responsividade) -->
     <ul class="opcoes">
       <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
       <label for="opcoes-menu" class="opcoes_rotulo">
@@ -63,8 +69,6 @@
         <li class="lista-menu-item"><a href="#" class="lista-menu-link">Design & UX</a></li>
         
     </ul>
-      
-
       <li class="opcoes_item"><a href="#" class="opcoes_link"></a>Favoritos</li>
       <li class="opcoes_item"><a href="#" class="opcoes_link"></a>Minha estante</li>
     </ul>
@@ -83,7 +87,6 @@
         <img src="Icons/Usuário.svg" alt="Meu Perfil"  class="container_imagem">
          <p class="container_texto">Meu Perfil</p>
       </a>
-
   </div>
   </header>
 
@@ -92,6 +95,8 @@
   <p class="banner_text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
   <input type="search" class="banner_pesquisa" placeholder="Qual será sua próxima leitura?">
  </section>
+
+      <!-- Carrossel de Ebooks -->
 
  <section class="carrossel">
     <h2 class="carrossel_titulo">Ultimos  Lançamentos</h2>
@@ -116,12 +121,12 @@
         <div class="swiper-slide"><img src="Icons/Acessibilidade.svg" alt=""></div>
       </div>
       
-
-      
       <!-- If we need navigation buttons -->
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
 </div>
+
+                    <!-- Card de Descrição de Livro -->
       <div class="card">
         <!-- 1* linha -->
         <div class="card_description">
@@ -147,8 +152,9 @@
           <a href="#" class="botoes_ancora">Saiba mais</a>
         </div>
       </div>
-      
  </section>
+
+  <!-- Section de Carrosel de Livros Mais Vendidos -->
 
  <section class="carrossel">
   <h2 class="carrossel_titulo">Mais Vendidos</h2>
@@ -177,6 +183,8 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   </div>
+
+  <!-- Card de descrição do Livro -->
     <div class="card">
       <!-- 1* linha -->
       <div class="card_description">
@@ -203,9 +211,9 @@
         <a href="#" class="botoes_ancora">Saiba mais</a>
       </div>
     </div>
- 
 </section>
 
+      <!-- Section Tópicos -->
 
 <section class="topicos">
   <h2 class="topicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
@@ -244,6 +252,8 @@
   </ul>
 </section>
 
+<!-- Section para Contato -->
+
 <section class="contato">
   <div class="contato_description">
   <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
@@ -253,6 +263,8 @@
 </section>
 
 <hr/>
+
+<!-- Rodape da Página -->
 
   <footer class="rodape">
     <h2 class="rodape_titulo">Grupo Alura</h2>
@@ -308,6 +320,8 @@
     </ul>
 
   </footer>
+
+  <!-- Carossel dos Livros, usando Swiper. -->
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
