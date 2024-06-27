@@ -93,11 +93,48 @@ padding: 1em 0 0.5em 0;
 
    .swiper-button-next, .swiper-button-prev {
     display: block;
-    top: 35%;
+    top: 60%;
    }
 
    .card {
     width: 70%;
     margin: 2em auto;
    }
+}
+
+@media screen and (min-width: 1728px) {
+
+  .swiper-pagination {
+    margin: 1em 0;
+  
+}
+
+  .carrossel_content {
+    display: flex;
+    margin: 0 20vw 3em 20vw;
+    align-items: center;
+  }
+
+  .swiper {
+    width: 50%;
+  }
+
+  .description {
+    margin-right: 0.2em;
+  }
+
+  .card {
+    width: 60%;
+    margin-left: 3em;
+    transform: translate(0,5%); 
+   }
+
+  .description_titulo {
+    font-size: 32px;
+  }
+
+  .description_text {
+    font-size: 16px;
+  }
+
 }
